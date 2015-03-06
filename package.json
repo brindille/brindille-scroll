@@ -1,0 +1,31 @@
+{
+  "name": "brindille-scroll",
+  "version": "0.1.0",
+  "description": "Scroll utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brindille/brindille-scroll.git"
+  },
+  "keywords": [
+    "Scroll",
+    "utils"
+  ],
+  "author": "Valentin Daguenet <valentin.daguenet@gmail.com>",
+  "contributors": [{
+    "name": "Guillaume Gouessan",
+    "email": "guillaume.gouessan@gmail.com"
+  }],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brindille/brindille-scroll/issues"
+  },
+  "homepage": "https://github.com/brindille/brindille-scroll",
+  "dependencies": {
+    "debounce": "^1.0.0",
+    "emitter-component": "^1.1.1"
+  }
+}
