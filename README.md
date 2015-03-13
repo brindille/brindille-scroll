@@ -1,5 +1,5 @@
 # brindille-scroll
-Scroll utils
+Scroll handler that uses debounce
 
 ## Install
 
@@ -15,6 +15,8 @@ $ npm install brindille-scroll --save
 var scroll = require('brindille-scroll');
 // add listener
 scroll.addListener(handler);
+// add listener without debounce
+scroll.addListener(noDebounceHandler, true);
 // remove listener
 scroll.removeListener(handler);
 scroll.removeAllListeners();
