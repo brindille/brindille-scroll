@@ -1,10 +1,10 @@
 {
   "name": "brindille-scroll",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scroll utils",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "budo demo/demo.js | garnish"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,12 @@
     "utils"
   ],
   "author": "Valentin Daguenet <valentin.daguenet@gmail.com>",
-  "contributors": [{
-    "name": "Guillaume Gouessan",
-    "email": "guillaume.gouessan@gmail.com"
-  }],
+  "contributors": [
+    {
+      "name": "Guillaume Gouessan",
+      "email": "guillaume.gouessan@gmail.com"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brindille/brindille-scroll/issues"
@@ -26,6 +28,13 @@
   "homepage": "https://github.com/brindille/brindille-scroll",
   "dependencies": {
     "debounce": "^1.0.0",
-    "emitter-component": "^1.1.1"
+    "component-emitter": "^1.2.0"
+  },
+  "devDependencies": {
+    "domready": "^1.0.7",
+    "garnish": "^2.1.0",
+    "budo": "^1.2.2",
+    "watchify": "^2.4.0",
+    "dom-transform": "^1.0.1"
   }
 }
