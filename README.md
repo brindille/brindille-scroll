@@ -13,13 +13,17 @@ $ npm install brindille-scroll --save
 
 ```js
 var scroll = require('brindille-scroll');
+
 // add listener
 scroll.addListener(handler);
+
 // add listener without debounce
 scroll.addListener(noDebounceHandler, true);
+
 // remove listener
 scroll.removeListener(handler);
 scroll.removeAllListeners();
+
 // get properties
 var x = scroll.x;
 var previousX = scroll.oldX;
