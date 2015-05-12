@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/brindille/brindille-scroll.svg?branch=master)](https://travis-ci.org/brindille/brindille-scroll)
+
 # brindille-scroll
 Scroll handler that uses debounce
 
