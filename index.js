@@ -16,7 +16,7 @@ scrollUtil.onGlobalScroll = function() {
   this.x = window.scrollX || window.pageXOffset;
   this.y = window.scrollY || window.pageYOffset;
 
-  this.direction = this.y - this.oy;
+  this.direction = this.y - this.oldY;
 
   this.applyScroll();
   if (this.frequency > 0) {
